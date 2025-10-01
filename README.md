@@ -99,6 +99,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Acknowledgments
 
 *   **[IT-Kamasutra](https://www.youtube.com/c/ITKAMASUTRA)** course author for high-quality and well-structured educational content
+*   [📚 Original Course Playlist](https://www.youtube.com/playlist?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8)
 *   Developers of React, Redux, TypeScript, and all used libraries
 
 ---
