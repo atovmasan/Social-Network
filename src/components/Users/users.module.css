@@ -4,3 +4,22 @@
 }
 
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.user{
+    display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.user > * + * {
+    padding: 10px;
+}
+
+.paginator{
+    margin: 0em 10em 3em 20em;
+}

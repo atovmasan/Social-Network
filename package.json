@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://it-kamasutra.github.io/react-way-of-samurai",
   "dependencies": {
+    "antd": "^5.27.4",
     "axios": "^1.12.2",
     "classnames": "^2.2.6",
     "react": "^16.8.6",

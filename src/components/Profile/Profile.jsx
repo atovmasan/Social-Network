@@ -1,6 +1,5 @@
 import React from 'react';
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
 const Profile = (props) => {
     return (
@@ -11,7 +10,6 @@ const Profile = (props) => {
                          status={props.status}
                          saveProfile={props.saveProfile}
                          updateStatus={props.updateStatus}/>
-            <MyPostsContainer />
         </div>
     )
 }

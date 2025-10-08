@@ -2,10 +2,11 @@ import React from 'react';
 import styles from "./users.module.css";
 import userPhoto from "../../assets/images/user.png";
 import {NavLink} from "react-router-dom";
+import { Button } from 'antd';
 
 let User = ({user, followingInProgress, unfollow, follow}) => {
     return (
-       <div>
+       <div className={styles.user}>
                 <span>
                     <div>
                        <NavLink to={'/profile/' + user.id}>
@@ -19,20 +20,17 @@ let User = ({user, followingInProgress, unfollow, follow}) => {
                                 .some(id => id === user.id)}
                                       onClick={() => { unfollow(user.id) }}>
                                 Unfollow</button>
-                            : <button disabled={followingInProgress.some(id => id === user.id)}
+                            : <Button style={ { backgroundColor: '#5865f2'}} type='primary' disabled={followingInProgress.some(id => id === user.id)}
                                       onClick={() => { follow(user.id) }}>
-                                      Follow</button>}
-
+                                      Follow</Button>}
+                                     
                     </div>
                 </span>
                 <span>
                     <span>
                         <div>{user.name}</div>
                         <div>{user.status}</div>
-                    </span>
-                    <span>
-                        <div>{"user.location.country"}</div>
-                        <div>{"user.location.city"}</div>
+                        <div></div>
                     </span>
                 </span>
             </div>)
