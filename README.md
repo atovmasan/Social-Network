@@ -3,12 +3,12 @@
 [![React](https://img.shields.io/badge/React-18.x-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux)](https://redux-toolkit.js.org/)
+[![React Router](https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
+[![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)](https://axios-http.com/)
 
 A full-featured social network developed as part of the **"Samurai Way"** course by IT-Kamasutra. This project is a Single Page Application (SPA) implementing core features of modern social platforms.
 
-**Important Note:** While the project was built following the course, it includes custom improvements and enhancements for better understanding of technologies and skills demonstration.
-
-**🚧 Current Development Status:** I'm currently working through the second part of the course and actively improving the project. New features, optimizations, and personal enhancements are being implemented regularly.
+**✨ Current Status:** Actively enhancing the project through the second part of the course, adding new features, optimizations, and personal improvements.
 
 ## 🚀 Features
 
@@ -17,15 +17,56 @@ A full-featured social network developed as part of the **"Samurai Way"** course
 *   **News Feed:** Browse posts from other users and publish your own
 *   **User Search:** Find and follow/unfollow other users
 *   **Messaging System:** Real-time messaging between users
+*   **Pagination:** Efficient data loading and display
+*   **Form Handling:** Comprehensive form validation and submission
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack & Learned Technologies
 
-*   **Frontend:** React 18, TypeScript
-*   **State Management:** Redux, Redux Thunk
-*   **Routing:** React Router DOM
-*   **HTTP Client:** Axios
-*   **Styling:** CSS Modules, Pure CSS
-*   **Backend:** Uses REST API provided in the course
+### **Frontend & Core Technologies**
+*   **React 18** - Functional components, Hooks, Lifecycle methods
+*   **TypeScript** - Static typing, Interfaces, Generics
+*   **React Router DOM** - Client-side routing, Navigation
+*   **Redux** - State management, Actions, Reducers
+*   **Redux Thunk** - Async actions, Side effects management
+*   **React-Redux** - React bindings for Redux
+
+### **HTTP & API**
+*   **Axios** - HTTP client, REST API communication
+*   **REST API** - CRUD operations, Endpoint consumption
+*   **HTTP Methods** - GET, POST, PUT, DELETE requests
+*   **Async/Await** - Asynchronous JavaScript operations
+
+### **State Management**
+*   **Container Components** - Stateful component pattern
+*   **Presentational Components** - Stateless component pattern
+*   **Context API** - Alternative state management
+*   **Local State** - useState hook management
+
+### **React Hooks & Patterns**
+*   **useState** - Local state management
+*   **useEffect** - Side effects and lifecycle
+*   **useDispatch** - Redux actions dispatch
+*   **useSelector** - Redux state selection
+*   **Custom Hooks** - Reusable logic abstraction
+*   **Higher-Order Components (HOC)** - Component composition
+
+### **Development Tools**
+*   **Create React App** - Project bootstrapping
+*   **Chrome DevTools** - Debugging and profiling
+*   **React Developer Tools** - Component inspection
+*   **Redux DevTools** - State monitoring and time-travel debugging
+
+### **Styling & UI**
+*   **CSS Modules** - Scoped styling
+*   **BEM Methodology** - CSS naming convention
+*   **Responsive Design** - Mobile-first approach
+*   **CSS3 Features** - Flexbox, Grid, Animations
+
+### **JavaScript Concepts**
+*   **ES6+ Features** - Arrow functions, Destructuring, Spread operator
+*   **Promises** - Async operations handling
+*   **Event Handling** - Synthetic events in React
+*   **Conditional Rendering** - Dynamic UI rendering
 
 ## 📦 Installation & Setup
 
@@ -79,25 +120,44 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🎯 Project Goals
+## 🎯 Project Goals & Learning Outcomes
 
 This educational project was created to deeply explore the modern React and TypeScript development stack. Through this work, I mastered:
 
-*   Fundamental React concepts (components, hooks, lifecycle)
-*   TypeScript usage for typing components, props, and state
-*   Managing complex application state with Redux (Thunk for side effects)
-*   REST API interaction (GET, POST, PUT, DELETE requests)
-*   Form handling and validation
-*   Project structure and code organization
+### **React Fundamentals**
+*   Component-based architecture thinking
+*   Virtual DOM and reconciliation process
+*   Props drilling and component communication
+*   Conditional rendering and list rendering patterns
 
-## 🔄 Ongoing Improvements
+### **Advanced Concepts**
+*   State management patterns and best practices
+*   Side effects management with useEffect
+*   Performance optimization techniques
+*   Code splitting and lazy loading
 
-Following the second part of the course, I'm continuously enhancing the project with:
-- Advanced React patterns and best practices
-- Performance optimizations
-- Code refactoring and architecture improvements
-- Additional features beyond the course curriculum
-- Personal experiments and custom implementations
+### **TypeScript Integration**
+*   Type safety in React components
+*   Interface design for props and state
+*   Generic types in hooks and functions
+*   Type definitions for third-party libraries
+
+### **Real-World Development**
+*   API integration and data fetching strategies
+*   Error handling and loading states
+*   Form management and validation
+*   Authentication flow implementation
+
+## 🔄 Ongoing Enhancements
+
+Following the second part of the course, I'm continuously improving the project with:
+- **Advanced React patterns** and best practices
+- **Performance optimizations** and code splitting
+- **Additional features** beyond the course curriculum
+- **Code refactoring** and architecture improvements
+- **Testing implementation** with Jest and React Testing Library
+- **Accessibility improvements** and SEO optimization
+- **Personal experiments** with modern web development approaches
 
 ## Learn More
 
@@ -114,4 +174,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ---
 
-*Note: This is an educational project created for learning purposes. Currently being enhanced through the second part of the course with personal improvements and additional features.*
+*Note: This is an educational project created for learning purposes. Currently being enhanced through the second part of the course with personal improvements and additional features. The comprehensive technology stack reflects the wide range of modern web development concepts covered in this intensive course.*
