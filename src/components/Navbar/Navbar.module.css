@@ -4,6 +4,14 @@
     padding: 20px;
 }
 
+.linkContainer{
+    border: 3px solid #2f2f36;
+    border-radius: 15px;
+    padding: 7px 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 .item a {
     color: white;
     text-decoration: none;

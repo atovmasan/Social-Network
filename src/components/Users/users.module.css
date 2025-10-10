@@ -11,9 +11,16 @@
 }
 
 .user{
-    display: inline-block;
-  vertical-align: middle;
-  text-align: center;
+  border: 3px solid #2f2f36;
+  border-radius: 25px;
+  padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.user img{
+  border-radius: 100px;
 }
 
 .user > * + * {
