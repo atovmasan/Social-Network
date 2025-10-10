@@ -5,9 +5,7 @@ https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux
 
 A full-featured social network developed as part of the "Samurai Way" course by IT-Kamasutra. This project is a Single Page Application (SPA) implementing core features of modern social platforms.
 
-Important Note: While the project was built following the course, it includes custom improvements and enhancements for better understanding of technologies and skills demonstration.
-
-🚧 Current Development Status: I'm currently working through the second part of the course and actively improving the project. New features, optimizations, and personal enhancements are being implemented regularly.
+✨ Current Status: Actively enhancing the project through the second part of the course, adding new features, optimizations, and personal improvements.
 
 🚀 Features
 Authentication System: Login and logout with form validation
@@ -98,18 +96,18 @@ Form handling and validation
 
 Project structure and code organization
 
-🔄 Ongoing Improvements
-Following the second part of the course, I'm continuously enhancing the project with:
+🔄 Ongoing Enhancements
+Following the second part of the course, I'm continuously improving the project with:
 
 Advanced React patterns and best practices
 
-Performance optimizations
-
-Code refactoring and architecture improvements
+Performance optimizations and code splitting
 
 Additional features beyond the course curriculum
 
-Personal experiments and custom implementations
+Code refactoring and architecture improvements
+
+Personal experiments with modern web development approaches
 
 Learn More
 You can learn more in the Create React App documentation.
